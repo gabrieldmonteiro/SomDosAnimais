@@ -1,8 +1,10 @@
 package com.example.monster_pc.somdosanimais;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.media.MediaPlayer;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,6 +29,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
 
         //Atribuicao -> Relacionando ImageViews com Elementos da interface (por ID)
